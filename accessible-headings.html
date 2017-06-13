@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Cool Site</title>
+    <link rel="stylesheet" href="styles/styles.min.css">
+</head>
+<body>
+    <div class="willow-layout"> 
+    <header class="willow-page-header" role="banner">
+        <div class="willow-page-header__branding">
+            <a class="willow-logo-link" href="/" aria-label="go to home page">
+                <img class="willow-logo-link__image" src="http://fillmurray.com/200/200" alt="My Company Logo" />
+            </a>
+        </div>
+        <div class="willow-page-header__content-controls">
+            <a class="willow-page-header__content-open" href="#">Menu</a>
+            <a class="willow-page-header__content-close" href="#">Close</a>
+        </div>
+        <div class="willow-page-header__content">
+            <div class="willow-page-header__navigation">
+            <nav class="willow-primary-nav" role="navigation" aria-label="cool menu">
+                    <h1 class="willow-primary-nav__heading">Pizza Website Menu</h1>
+                    <ul class="willow-primary-nav__list">
+                        <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="#">Page 1</a></li>
+                        <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="#">Page 2</a></li>
+                        <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="#">Page 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <nav class="willow-breadcrumbs" role="navigation" aria-label="crumbzzzz navigation">
+        <h1 class="willow-breadcrumbs__heading">You are here:</h1>
+        <ol class="willow-breadcrumbs__list">
+            <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="#">Previous Page 1</a></li>
+            <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="#">Previous Page 2</a></li>
+            <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="#">Previous Page 3</a></li>
+            <li class="willow-breadcrumbs__item--active">Current Page</li>
+        </ol>
+    </nav>
+
+    <nav class="willow-secondary-nav" role="navigation" aria-label="Secondary Navigation">
+        <h1 class="willow-secondary-nav__heading--visible">Options Menu</h1>
+        <ul class="willow-secondary-nav__list">
+            <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link--active" href="#">Option 1</a></li>
+            <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link" href="#">Option 2</a></li>
+            <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link" href="#">Option 3</a></li>
+        </ul>
+    </nav>
+
+     <footer class="willow-page-footer" role="contentinfo">
+        <div class="willow-page-footer__branding">
+            <!-- LOGO LINK COMPONENT -->
+            <a class="willow-logo-link" href="/" aria-label="go to home page"><img class="willow-logo-link__image" src="http://fillmurray.com/500/300" alt="My Company Logo"></a>
+        </div>
+        <div class="willow-page-footer__navigation">
+            <!-- FOOTER NAVIGATION COMPONENT -->
+            <nav class="willow-footer-nav" role="navigation" aria-label="Footer">
+                <!-- Heading Text Hidden by Default - Required for Accessibility-->
+                <h1 class="willow-footer-nav__heading">Expanded Site Menu Pizza!</h1>
+                <ul class="willow-footer-nav__list">
+                    <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="#">Menu Item 1</a></li>
+                    <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="#">Menu Item 2</a></li>
+                    <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="#">Menu Item 3</a></li>
+                    <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="#">Menu Item 4</a></li>
+                    <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="#">Menu Item 5</a></li>
+                </ul>
+            </nav>
+        </div>
+        <small class="willow-page-footer__copyright">© 2017 Colonial Life & Accident Insurance Company Colonial Life & Accident Insurance Company is a subsidiary of Unum Group.</small>
+    </footer>
+    </div>
+    <script src="scripts/site.min.js"></script>
+</body>
+</html>

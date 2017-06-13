@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles/styles.min.css">
+</head>
+
+<body>
+    <div class="willow-layout">
+        <div class="willow-layout__row--remove-margin-bottom">
+            <div class="willow-layout__column--12">
+                <!-- GLOBAL ALERT COMPONENT -->
+                <section class="willow-global-alert--warning" role="alert">
+                    <button class="willow-global-alert__close"><span class="willow-icon--close-inverse"></span></button>
+                    <h1 class="willow-global-alert__heading">Important Information</h1>
+                    <div class="willow-global-alert__content">
+                        <div class="willow-styling-context">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate optio commodi doloribus,
+                                sed eos mollitia vitae nobis, obcaecati et. <a href="#">Ipsum atque mollitia</a> est et quos
+                                unde dolores facere neque consequatur?</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- SKIP NAV COMPONENT -->
+                <div class="willow-skip-nav">
+                    <a href="#main" class="willow-skip-nav__link" aria-label="skip to main content">Skip to main content</a>
+                </div>
+
+                <!-- PAGE HEADER COMPONENT -->
+                <header class="willow-page-header" role="banner">
+                    <div class="willow-page-header__branding">
+                        <!-- LOGO LINK COMPONENT -->
+                        <a class="willow-logo-link" href="/" aria-label="go to home page"><img class="willow-logo-link__image" src="http://fillmurray.com/300/300" alt=""></a>
+                    </div>
+                    <div class="willow-page-header__content-controls">
+                        <a href="#" class="willow-page-header__content-open">Menu<span class="willow-icon--menu"></span></a>
+                        <a href="#" class="willow-page-header__content-close"><span class="willow-icon--menu-close"></span></a>
+                    </div>
+                    <div class="willow-page-header__content">
+                        <div class="willow-page-header__navigation">
+                            <!-- PRIMARY NAV COMPONENT -->
+                            <nav class="willow-primary-nav" role="navigation" aria-label="Primary Navigation">
+                                <h1 class="willow-primary-nav__heading sr-only">Primary Navigation</h1>
+                                <ul class="willow-primary-nav__list">
+                                    <li class="willow-primary-nav__item"><a class="willow-primary-nav__link--active" href="/" aria-label="">Page 1</a></li>
+                                    <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="/" aria-label="">Page 2</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="willow-layout__row">
+            <div class="willow-layout__column--12">
+                <!-- BANNER COMPONENT -->
+                <section class="willow-banner home-page-banner" role="region">
+                    <h1 class="willow-banner__heading">Banner Example</h1>
+                    <div class="willow-banner__content">
+                        <div class="willow-styling-context">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim cumque nihil quisquam tempore
+                                voluptatum hic laudantium incidunt, eaque molestias. Tenetur est sapiente sit adipisci, accusamus
+                                modi asperiores at id a!</p>
+                        </div>
+                    </div>
+                    <ul class="willow-banner__actions">
+                        <li class="willow-banner__action"><button class="willow-button--primary">Call To Action</button></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="willow-layout__row">
+            <div class="willow-layout__column--12">
+                <!-- BREADCRUMB COMPONENT -->
+                <nav class="willow-breadcrumbs" role="navigation" aria-label="Breadcrumb Navigation">
+                    <h1 class="willow-breadcrumbs__heading sr-only">You are here:</h1>
+                    <ol class="willow-breadcrumbs__list">
+                        <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="" aria-label="">Previous Page 1</a></li>
+                        <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="" aria-label="">Previous Page 2</a></li>
+                        <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="" aria-label="">Previous Page 3</a></li>
+                        <li class="willow-breadcrumbs__item--active">Current Page</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="willow-layout__row--grow">
+            <div class="willow-layout__column--3">
+                <nav class="willow-secondary-nav" role="navigation" aria-label="Secondary Navigation">
+                    <h1 class="willow-secondary-nav__heading">Menu Title</h1>
+                    <ul class="willow-secondary-nav__list">
+                        <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link--active" href="" aria-label="">Menu Item 1</a></li>
+                        <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link" href="" aria-label="">Menu Item 2</a></li>
+                        <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link" href="" aria-label="">Menu Item 3</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="willow-layout__column--9">
+                <!--PAGE CONTENT COMPONENT -->
+                <main class="willow-page-content" id="main" role="main">
+                    <!-- STYLING CONTEXT COMPONENT -->
+                    <div class="willow-styling-context">
+                        <h1>Main Page Heading</h1>
+                        <h2>A Subheading Example</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <b>Bold explicabo consectetur porro corrupti.</b>                            Dolor reiciendis recusandae tempore explicabo corporis rem modi ab non eius, dolorum, quos odit
+                            iure vero aperiam unde, fugit minus dignissimos consectetur sed. <strong>Strong maiores soluta iure praesentium</strong>                            necessitatibus nostrum voluptate eius voluptates! Ullam itaque, similique iste quos ab nemo.
+                            Distinctio et, doloremque aspernatur maxime sunt nam minima beatae rem maiores veritatis. <i>Italicized quaerat veniam voluptatum laboriosam</i>                            doloremque eius ab aliquid, illo, fuga fugit ullam earum qui asperiores rerum labore? <em>Emphasized totam sapiente commodi quia</em>,
+                            nam necessitatibus quos eveniet nihil corrupti blanditiis fuga possimus voluptatum deleniti libero
+                            nisi quasi eaque ipsa, quisquam provident, facere eligendi inventore perferendis neque. Laudantium
+                            aspernatur, iure voluptates quia, vel quis repellendus quo veritatis vero maiores dolore consequatur
+                            doloremque commodi expedita, eaque sint! <a href="#">Ipsa inventore adipisci</a>, iusto, iure
+                            quod laboriosam autem voluptas dolor. Atque, natus laudantium impedit facere, aliquam qui tempora,
+                            ex sunt nobis magnam sequi dicta corporis! Ducimus obcaecati vel asperiores aperiam deserunt
+                            placeat illo facere voluptatum veritatis temporibus quos soluta velit alias quam eos pariatur
+                            saepe, reprehenderit ratione, in dolores! Error fuga deleniti aut dolor quidem facilis accusantium
+                            atque enim totam ipsum quod, vero illum, similique nostrum accusamus ipsam nisi animi! Illum
+                            excepturi iste, perferendis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo consectetur porro corrupti. Dolor
+                            reiciendis recusandae tempore explicabo corporis rem modi ab non eius, dolorum, quos odit iure
+                            vero aperiam unde, fugit minus dignissimos consectetur sed.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo consectetur porro corrupti. Dolor
+                            reiciendis recusandae tempore explicabo corporis rem modi ab non eius, dolorum, quos odit iure
+                            vero aperiam unde, fugit minus dignissimos consectetur sed.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo consectetur porro corrupti. Dolor
+                            reiciendis recusandae tempore explicabo corporis rem modi ab non eius, dolorum, quos odit iure
+                            vero aperiam unde, fugit minus dignissimos consectetur sed.</p>
+                        <h2>OList Heading</h2>
+                        <ol>
+                            <li>list item 1</li>
+                            <li>list item 2</li>
+                            <li>list item 3</li>
+                            <li>list item 4</li>
+                            <li>list item 5</li>
+                        </ol>
+                        <p><abbr title="Abbreviation!">Distinctio et</abbr>, doloremque aspernatur maxime sunt nam minima beatae
+                            rem maiores veritatis.
+                            <s>Quaerat veniam voluptatum laboriosam</s> doloremque eius ab aliquid, illo, fuga fugit ullam earum
+                            qui asperiores rerum labore? Totam sapiente commodi quia,
+                            <del>nam necessitatibus quos</del> eveniet nihil corrupti blanditiis fuga possimus voluptatum deleniti
+                            libero nisi quasi eaque ipsa, quisquam provident, facere eligendi inventore perferendis neque.
+                            Laudantium aspernatur,
+                            <blockquote>Iure voluptates quia, vel quis repellendus quo veritatis vero maiores dolore consequatur doloremque
+                                commodi expedita, eaque sint! Ipsa inventore adipisci, iusto, iure quod laboriosam autem
+                                voluptas dolor.</blockquote>
+                        </p>
+                        <p>Atque, natus laudantium impedit facere, aliquam qui tempora, ex sunt nobis magnam sequi dicta corporis!
+                            <dfn>Ducimus obcaecati vel asperiores aperiam deserunt placeat illo facere voluptatum veritatis temporibus quos soluta velit alias quam eos pariatur saepe, reprehenderit ratione, in dolores!</dfn>                            Error fuga deleniti aut dolor quidem facilis accusantium atque enim totam ipsum quod, vero illum,
+                            similique nostrum accusamus ipsam nisi animi! Illum excepturi iste, perferendis.</p>
+                        <hr>
+                        <figure>
+                            <img src="http://placekitten.com/g/200/200" title="figure and figcaption">
+                            <figcaption>figcaption</figcaption>
+                        </figure>
+                        <hr>
+                        <p>Maiores soluta iure praesentium necessitatibus nostrum voluptate eius voluptates! Ullam itaque, similique
+                            iste quos ab nemo. Distinctio et, doloremque aspernatur maxime sunt nam minima beatae rem
+                            <time>1:00 pm</time>maiores veritatis. Quaerat veniam voluptatum laboriosam doloremque eius ab aliquid,
+                            illo, fuga fugit ullam earum qui asperiores rerum labore? Totam sapiente commodi quia, nam necessitatibus
+                            quos eveniet nihil corrupti blanditiis fuga possimus
+                            <ins>voluptatum deleniti libero nisi quasi eaque ipsa</ins>, quisquam provident, facere eligendi inventore
+                            perferendis neque. Laudantium aspernatur, iure voluptates quia, vel quis repellendus quo veritatis
+                            vero maiores dolore consequatur doloremque commodi expedita, eaque sint! <q>Ipsa inventore adipisci, iusto, iure quod laboriosam autem voluptas dolor.</q>                            Atque, natus laudantium impedit facere, aliquam qui tempora, ex sunt nobis magnam sequi dicta
+                            corporis! Ducimus <sup>1</sup> obcaecati vel asperiores aperiam <sup>deserunt placeat</sup> illo
+                            facere voluptatum veritatis temporibus quos soluta velit alias quam eos pariatur saepe, reprehenderit
+                            ratione, in dolores! Error fuga deleniti aut dolor quidem facilis accusantium atque enim totam
+                            ipsum quod, vero illum, similique <sub>2</sub> nostrum accusamus ipsam nisi animi! Illum excepturi
+                            <sub>iste</sub>, perferendis.</p>
+                        <h2>UList Heading</h2>
+                        <ul>
+                            <li><a href="#">link-1</a></li>
+                            <li><a href="#">link-2</a></li>
+                            <li><a href="#">link-3</a></li>
+                            <li><a href="#">link-4</a></li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo consectetur porro corrupti.
+                            <mark>Dolor reiciendis recusandae tempore explicabo corporis</mark> rem modi ab non eius, dolorum,
+                            quos odit iure vero aperiam unde, fugit minus dignissimos consectetur sed. Maiores soluta iure
+                            praesentium necessitatibus nostrum voluptate eius voluptates! Ullam itaque, similique iste quos
+                            ab nemo. A simple equation: <var>x</var> = <var>y</var> + 2 </p>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam.</p>
+                        <pre><code>function beCool(you) { 
+            return `${you} already are a very long line is right here`;
+        };</code></pre>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam. Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Provident, quam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam. Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Provident, quam. Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Provident, quam. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Provident, quam.</p>
+
+                        <div class="table-container">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Column Heading 1</th>
+                                        <th scope="col">Column Heading 2</th>
+                                        <th scope="col">Column Heading 3</th>
+                                        <th scope="col">Column Heading 4</th>
+                                        <th scope="col">Column Heading 5</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Item 1</td>
+                                        <td>Item 2</td>
+                                        <td>Item 3</td>
+                                        <td>Item 4</td>
+                                        <td>Item 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item 1</td>
+                                        <td>Item 2</td>
+                                        <td>Item 3</td>
+                                        <td>Item 4</td>
+                                        <td>Item 5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Item 1</td>
+                                        <td>Item 2</td>
+                                        <td>Item 3</td>
+                                        <td>Item 4</td>
+                                        <td>Item 5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, id enim cum aliquid atque
+                            laborum praesentium beatae consectetur, voluptatem recusandae animi nesciunt, tenetur possimus
+                            aliquam ipsum mollitia tempora soluta! Sapiente nemo magni, optio placeat repellat corrupti atque
+                            dicta veniam modi odit consectetur cum sint ipsa suscipit itaque aspernatur quos, eum nam. Molestiae
+                            voluptatum deleniti soluta in quas consequuntur ipsum necessitatibus reiciendis aliquid, autem,
+                            aspernatur. Quos sint et perferendis totam reprehenderit! Animi quo, corrupti cupiditate aperiam
+                            non beatae in, tenetur necessitatibus possimus! Dicta non aperiam debitis laboriosam ea accusantium
+                            dolor. Similique temporibus, eaque, aspernatur necessitatibus libero doloribus officia blanditiis
+                            in vero?</p>
+                    </div>
+
+                    <!-- GRID COMPONENT (IN PAGE CONTENT) -->
+                    <div class="willow-grid">
+                        <div class="willow-grid__item">
+                            <div class="willow-styling-context">
+                                <h1>Item 1 Title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla voluptates in laborum
+                                    odio vero labore cupiditate maxime, deleniti tempore nostrum ullam aspernatur veritatis?
+                                    Unde nobis voluptas cumque deleniti reiciendis.</p>
+                            </div>
+                        </div>
+                        <div class="willow-grid__item">
+                            <div class="willow-styling-context">
+                                <h1>Item 2 Title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla voluptates in laborum
+                                    odio vero labore cupiditate maxime, deleniti tempore nostrum ullam aspernatur veritatis?
+                                    Unde nobis voluptas cumque deleniti reiciendis.</p>
+                            </div>
+                        </div>
+                        <div class="willow-grid__item">
+                            <div class="willow-styling-context">
+                                <h1>Item 3 Title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla voluptates in laborum
+                                    odio vero labore cupiditate maxime, deleniti tempore nostrum ullam aspernatur veritatis?
+                                    Unde nobis voluptas cumque deleniti reiciendis.</p>
+                            </div>
+                        </div>
+                        <div class="willow-grid__item">
+                            <div class="willow-styling-context">
+                                <h1>Item 4 Title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla voluptates in laborum
+                                    odio vero labore cupiditate maxime, deleniti tempore nostrum ullam aspernatur veritatis?
+                                    Unde nobis voluptas cumque deleniti reiciendis.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SUMMARY COMPONENT (WITH GRID) -->
+                    <section class="willow-summary" role="region">
+                        <h1 class="willow-summary__heading">Summary of Most Recent Articles</h1>
+                        <div class="willow-summary__content">
+                            <!-- GRID COMPONENT (IN SUMMARY) -->
+                            <div class="willow-grid">
+                                <div class="willow-grid__item">
+                                    <div class="willow-styling-context">
+                                        <h1>Article 1</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla voluptates
+                                            in laborum odio vero labore cupiditate maxime, deleniti tempore nostrum ullam
+                                            aspernatur veritatis? Unde nobis voluptas cumque deleniti reiciendis.</p>
+                                    </div>
+                                </div>
+                                <div class="willow-grid__item">
+                                    <div class="willow-styling-context">
+                                        <h1>Article 2</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla voluptates
+                                            in laborum odio vero labore cupiditate maxime, deleniti tempore nostrum ullam
+                                            aspernatur veritatis? Unde nobis voluptas cumque deleniti reiciendis.</p>
+                                    </div>
+                                </div>
+                                <div class="willow-grid__item">
+                                    <div class="willow-styling-context">
+                                        <h1>Article 3</h1>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi nulla voluptates
+                                            in laborum odio vero labore cupiditate maxime, deleniti tempore nostrum ullam
+                                            aspernatur veritatis? Unde nobis voluptas cumque deleniti reiciendis.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="willow-summary__actions">
+                            <li class="willow-summary__action"><button class="willow-button--positive" onclick="openDialog()">Show Dialog</button></li>
+                        </ul>
+                    </section>
+
+                    <!-- SUMMARY COMPONENT -->
+                    <section class="willow-summary" role="region">
+                        <h1 class="willow-summary__heading--sr">Summary of Most Read Article</h1>
+                        <div class="willow-summary__content">
+                            <div class="willow-styling-context">
+                                <h1>Most Read Article Title</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste dolor saepe reiciendis quae,
+                                    labore, cumque quis. Doloremque sunt dolore sapiente quia adipisci iste rerum fugiat
+                                    sed reiciendis non maxime accusamus illo repellat voluptatibus, autem nisi, laborum alias?
+                                    Ipsa architecto blanditiis, explicabo voluptate eaque unde veniam reprehenderit laborum,
+                                    eum sunt itaque veritatis nisi eius aliquam rerum laudantium similique velit repellendus
+                                    labore exercitationem esse corporis. Rerum, reprehenderit ex magni at, perspiciatis impedit
+                                    ullam eligendi amet perferendis fugit aperiam ea animi quos sapiente neque porro voluptate
+                                    delectus quisquam incidunt odio officiis blanditiis facilis. Nam, saepe, minima. Esse
+                                    quod, numquam odio impedit distinctio hic!</p>
+                            </div>
+                        </div>
+                        <ul class="willow-summary__actions">
+                            <li class="willow-summary__action"><button class="willow-button--negative" onclick="openModal()">Show Modal</button></li>
+                        </ul>
+                    </section>
+
+                    <!-- INLINE ALERT COMPONENT (IN PAGE CONTENT) -->
+                    <section class="willow-alert--negative" role="alert">
+                        <h1 class="willow-alert__heading">Form Alert</h1>
+                        <div class="willow-alert__content">
+                            <div class="willow-styling-context">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="my-list">
+                        <article class="my-list__item">
+                            <h1 class="my-list__heading">List Item 1</h1>
+                            <p class="my-list__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate molestiae voluptatibus asperiores voluptas unde est veritatis inventore aliquam tenetur. Minima error, sint pariatur modi quos. Corrupti, sequi tempora eligendi dolor!</p>
+                        </article>
+                        <article class="my-list__item">
+                            <h1 class="my-list__heading">List Item 2</h1>
+                            <p class="my-list__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate molestiae voluptatibus asperiores voluptas unde est veritatis inventore aliquam tenetur. Minima error, sint pariatur modi quos. Corrupti, sequi tempora eligendi dolor!</p>
+                        </article>
+                        <article class="my-list__item">
+                            <h1 class="my-list__heading">List Item 3</h1>
+                            <p class="my-list__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate molestiae voluptatibus asperiores voluptas unde est veritatis inventore aliquam tenetur. Minima error, sint pariatur modi quos. Corrupti, sequi tempora eligendi dolor!</p>
+                        </article>
+                    </div>
+
+                    <!-- DIALOG COMPONENT -->
+                    <div class="willow-dialog">
+                        <section class="willow-dialog__container" role="dialog">
+                            <h1 class="willow-dialog__heading">Heading Text</h1>
+                            <div class="willow-dialog__content">
+                                <div class="willow-styling-context">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos doloremque
+                                        aliquam quidem maxime voluptates porro quos ex dolor aperiam ab laboriosam error,
+                                        expedita, quia eaque, iure assumenda nemo fugiat.</p>
+                                </div>
+                                <!-- INLINE ALERT COMPONENT (IN DIALOG) -->
+                                <section class="willow-alert--positive" role="alert">
+                                    <h1 class="willow-alert__heading">Heading Text</h1>
+                                    <div class="willow-alert__content">
+                                        <div class="willow-styling-context">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <ul class="willow-dialog__actions">
+                                <li class="willow-dialog__action"><button class="willow-button" onclick="closeDialog()">add later</button></li>
+                                <li class="willow-dialog__action"><button class="willow-button--positive" onclick="closeDialog()">add now</button></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <!-- MODAL COMPONENT -->
+                    <div class="willow-modal">
+                        <section class="willow-modal__container" role="alertdialog">
+                            <h1 class="willow-modal__heading">Modal</h1>
+                            <div class="willow-modal__content">
+                                <div class="willow-styling-context">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dignissimos doloremque
+                                        aliquam quidem maxime voluptates porro quos ex dolor aperiam ab laboriosam error,
+                                        expedita, quia eaque, iure assumenda nemo fugiat.</p>
+                                </div>
+                                <!-- INLINE ALERT COMPONENT (IN MODAL) -->
+                                <section class="willow-alert" role="alert">
+                                    <h1 class="willow-alert__heading">Heading Text</h1>
+                                    <div class="willow-alert__content">
+                                        <div class="willow-styling-context">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                            <ul class="willow-modal__actions">
+                                <li class="willow-modal__action"><button class="willow-button--negative" onclick="closeModal()">delete my account</button></li>
+                            </ul>
+                        </section>
+                    </div>
+
+                </main>
+            </div>
+        </div>
+        <div class="willow-layout__row">
+            <div class="willow-layout__column--12">
+                <!-- PAGE FOOTER COMPONENT -->
+                <footer class="willow-page-footer" role="contentinfo">
+                    <div class="willow-page-footer__branding">
+                        <!-- LOGO LINK COMPONENT -->
+                        <a class="willow-logo-link" href="/" aria-label="go to home page"><img class="willow-logo-link__image" src="http://fillmurray.com/300/300" alt=""></a>
+                    </div>
+                    <div class="willow-page-footer__navigation">
+                        <!-- FOOTER NAVIGATION COMPONENT -->
+                        <nav class="willow-footer-nav" role="navigation" aria-label="Footer Navigation">
+                            <!-- Heading Text Hidden by Default - Required for Accessibility-->
+                            <h1 class="willow-footer-nav__heading sr-only">Footer Navigation</h1>
+                            <ul class="willow-footer-nav__list">
+                                <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="" aria-label="">Menu Item 1</a></li>
+                                <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="" aria-label="">Menu Item 2</a></li>
+                                <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="" aria-label="">Menu Item 3</a></li>
+                                <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="" aria-label="">Menu Item 4</a></li>
+                                <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="" aria-label="">Menu Item 5</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <small class="willow-page-footer__copyright">© 2017 Colonial Life & Accident Insurance Company Colonial Life & Accident Insurance Company is a subsidiary of Unum Group.</small>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/site.min.js"></script>
+    <script>
+        var header = document.querySelector(".willow-page-header");
+        var open = document.querySelector(".willow-page-header__content-open");
+        var close = document.querySelector(".willow-page-header__content-close");
+
+        open.addEventListener("click", function (e) {
+            header.setAttribute("data-content-open", "true");
+        });
+
+        close.addEventListener("click", function (e) {
+            header.setAttribute("data-content-open", "false");
+        });
+
+
+        function openDialog() {
+            console.log("dialog");
+            var dialog = document.querySelector(".willow-dialog");
+            dialog.setAttribute("data-dialog-close", "false");
+        }
+
+        function closeDialog() {
+            console.log("dialog");
+            var dialog = document.querySelector(".willow-dialog");
+            dialog.setAttribute("data-dialog-close", "true");
+        }
+
+        function openModal() {
+            console.log("modal");
+            var modal = document.querySelector(".willow-modal");
+            modal.setAttribute("data-modal-close", "false");
+        }
+
+        function closeModal() {
+            console.log("modal");
+            var modal = document.querySelector(".willow-modal");
+            modal.setAttribute("data-modal-close", "true");
+        }
+    </script>
+</body>
+
+</html>
