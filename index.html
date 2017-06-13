@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Unum Example Site</title>
     <link rel="stylesheet" href="styles/styles.min.css">
 </head>
 
@@ -12,6 +12,17 @@
         <div class="willow-layout__row--remove-margin-bottom">
             <div class="willow-layout__column--12">
                 <!-- GLOBAL ALERT COMPONENT -->
+                 <section class="willow-global-alert" role="alert">
+                    <button class="willow-global-alert__close"><span class="willow-icon--close-inverse"></span></button>
+                    <h1 class="willow-global-alert__heading sr-only">Important Information</h1>
+                    <div class="willow-global-alert__content">
+                        <div class="willow-styling-context">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate optio commodi doloribus,
+                                sed eos mollitia vitae nobis, obcaecati et. <a href="#">Ipsum atque mollitia</a> est et quos
+                                unde dolores facere neque consequatur?</p>
+                        </div>
+                    </div>
+                </section>
                 <section class="willow-global-alert--warning" role="alert">
                     <button class="willow-global-alert__close"><span class="willow-icon--close-inverse"></span></button>
                     <h1 class="willow-global-alert__heading">Important Information</h1>
@@ -42,8 +53,8 @@
                     <div class="willow-page-header__content">
                         <div class="willow-page-header__navigation">
                             <!-- PRIMARY NAV COMPONENT -->
-                            <nav class="willow-primary-nav" role="navigation" aria-label="Primary Navigation">
-                                <h1 class="willow-primary-nav__heading sr-only">Primary Navigation</h1>
+                            <nav class="willow-primary-nav" role="navigation" aria-label="primary">
+                                <h1 class="willow-primary-nav__heading sr-only">Example Site Main Menu</h1>
                                 <ul class="willow-primary-nav__list">
                                     <li class="willow-primary-nav__item"><a class="willow-primary-nav__link--active" href="/" aria-label="">Page 1</a></li>
                                     <li class="willow-primary-nav__item"><a class="willow-primary-nav__link" href="/" aria-label="">Page 2</a></li>
@@ -75,7 +86,7 @@
         <div class="willow-layout__row">
             <div class="willow-layout__column--12">
                 <!-- BREADCRUMB COMPONENT -->
-                <nav class="willow-breadcrumbs" role="navigation" aria-label="Breadcrumb Navigation">
+                <nav class="willow-breadcrumbs" role="navigation" aria-label="breadcrumb">
                     <h1 class="willow-breadcrumbs__heading sr-only">You are here:</h1>
                     <ol class="willow-breadcrumbs__list">
                         <li class="willow-breadcrumbs__item"><a class="willow-breadcrumbs__link" href="" aria-label="">Previous Page 1</a></li>
@@ -88,8 +99,8 @@
         </div>
         <div class="willow-layout__row--grow">
             <div class="willow-layout__column--3">
-                <nav class="willow-secondary-nav" role="navigation" aria-label="Secondary Navigation">
-                    <h1 class="willow-secondary-nav__heading">Menu Title</h1>
+                <nav class="willow-secondary-nav" role="navigation" aria-label="secondary">
+                    <h1 class="willow-secondary-nav__heading sr-only">Example Page Menu</h1>
                     <ul class="willow-secondary-nav__list">
                         <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link--active" href="" aria-label="">Menu Item 1</a></li>
                         <li class="willow-secondary-nav__item"><a class="willow-secondary-nav__link" href="" aria-label="">Menu Item 2</a></li>
@@ -99,7 +110,7 @@
             </div>
             <div class="willow-layout__column--9">
                 <!--PAGE CONTENT COMPONENT -->
-                <main class="willow-page-content" id="main" role="main">
+                <main class="willow-page-content" id="main" role="main">    
                     <!-- STYLING CONTEXT COMPONENT -->
                     <div class="willow-styling-context">
                         <h1>Main Page Heading</h1>
@@ -182,8 +193,8 @@
                         <hr>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam.</p>
                         <pre><code>function beCool(you) { 
-            return `${you} already are a very long line is right here`;
-        };</code></pre>
+                    return `${you} already are a very long line is right here`;
+                        };</code></pre>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam. Lorem ipsum dolor sit
                             amet, consectetur adipisicing elit. Provident, quam.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, quam. Lorem ipsum dolor sit
@@ -313,7 +324,7 @@
 
                     <!-- SUMMARY COMPONENT -->
                     <section class="willow-summary" role="region">
-                        <h1 class="willow-summary__heading--sr">Summary of Most Read Article</h1>
+                        <h1 class="willow-summary__heading sr-only">Summary of Most Read Article</h1>
                         <div class="willow-summary__content">
                             <div class="willow-styling-context">
                                 <h1>Most Read Article Title</h1>
@@ -424,9 +435,9 @@
                     </div>
                     <div class="willow-page-footer__navigation">
                         <!-- FOOTER NAVIGATION COMPONENT -->
-                        <nav class="willow-footer-nav" role="navigation" aria-label="Footer Navigation">
+                        <nav class="willow-footer-nav" role="navigation" aria-label="footer">
                             <!-- Heading Text Hidden by Default - Required for Accessibility-->
-                            <h1 class="willow-footer-nav__heading sr-only">Footer Navigation</h1>
+                            <h1 class="willow-footer-nav__heading sr-only">Example Site Footer Menu</h1>
                             <ul class="willow-footer-nav__list">
                                 <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="" aria-label="">Menu Item 1</a></li>
                                 <li class="willow-footer-nav__item"><a class="willow-footer-nav__link" href="" aria-label="">Menu Item 2</a></li>
