@@ -25,3 +25,13 @@ Check out the HTML in this repo's code to see the components in action, and then
 - Breadcrumbs
 - Secondary Navigation
 - Footer Navigation
+
+## Accessibility Research Results
+
+Component blocks that are made from sectioning elements require a heading for semantics – these headings are announced as a title of the component.
+
+Component blocks that do not have/require a heading can use `aria-label` to provide more information to the user if necessary.
+
+`aria-label` can also work as a clarifying attribute to be used along side the `role` attribute. So f we have `role="navigation"` on multiple components on a single page, we can use `aria-label` to give more clarity of purpose.  A screen reader would announce “Site Navigation Landmark” when `role=“navigation”` and `aria-label=“site”` are used.
+
+We could use `aria-labelledby` to forgo using `aria-label` – but this would require the addition of the `id` attribute to the component’s heading element.  We do not use `id` attributes on Willow components to avoid repeated id’s on a page.  So we should not use `aria-labelledby` in Willow - but we can give clear instruction on how to use it via the accessibility site to allow developers to use it for their own components/html.
